@@ -1,4 +1,8 @@
 export default function About() {
+  //TODO hierarchy, can use this override in other components
+  const textStyle = {
+    color: '#EEE'
+  }
   return (
     <div className="about">
       <div className="header">
@@ -14,6 +18,13 @@ export default function About() {
         its way. This is why I specialize in Trauma and use a combination 
         of EMDR and mindfulness and somatic based approaches.
         </h5>
+      </div>
+      <div className="picture">
+        totally a picture
+      </div>
+      <div className="text">
+        <h5>Maggie Freeland</h5>
+        <h5 style={textStyle}>Prelicensed Professional</h5>
       </div>
     </div>
   )
