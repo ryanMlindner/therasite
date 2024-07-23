@@ -1,5 +1,5 @@
 import React from "react";
-import { Switch, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Title from "./Displays/Title.js";
 import NavBar from "./Interacts/NavBar.js";
 import Home from "./Containers/Home.js";
@@ -14,12 +14,12 @@ export default function App() {
   return (
     <div className="App">
       <Title/>
+      <BrowserRouter>
       <NavBar/>
-      <Switch>
-        <Route exact path="/home">
-          <Home/>
-        </Route>
-      </Switch>
+        <Routes>
+          <Route path="/" element={<Home/>} />
+        </Routes>
+      </BrowserRouter>
       <header className="App-header">
         <div>Placeholder!</div>
       </header>
