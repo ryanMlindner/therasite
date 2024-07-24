@@ -1,4 +1,5 @@
 export default function Title() {
+  //TODO separators between CO ### and Contact
   return (
     <div className="title">
       <div className="text">

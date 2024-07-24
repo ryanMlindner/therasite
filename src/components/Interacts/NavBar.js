@@ -13,6 +13,12 @@ export default function NavBar() {
       <div className="button">
         About
       </div>
+      <div className="button">
+        Services
+      </div>
+      <div className="button">
+        Location
+      </div>
     </div>
   )
 }
