@@ -1,8 +1,6 @@
-export default function About() {
-  //TODO hierarchy, can use this override in other components
-  const textStyle = {
-    color: '#EEE'
-  }
+export default function About({textStyle}) {
+  //TODO pics and css
+  textStyle = textStyle
   return (
     <div className="no-background">
       <div className="header">

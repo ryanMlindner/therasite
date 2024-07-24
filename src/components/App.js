@@ -24,13 +24,17 @@ IF multiple:
   </Routes>
 </BrowserRouter>
 */
+const lightText = {
+  color: '#EEE'
+}
+
 export default function App() {
   return (
     <div className="App">
       <Title/>
       <NavBar/>
       <Home/>
-      <About/>
+      <About textStyle = {lightText}/>
       <Services/>
       <Location/>
     </div>

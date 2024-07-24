@@ -1,5 +1,5 @@
 export default function Title() {
-  //TODO separators between CO ### and Contact
+  //TODO separators between CO ### and Contact + other CSS
   return (
     <div className="no-background">
       <div className="text">

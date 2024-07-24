@@ -1,8 +1,9 @@
 export default function Location() {
+  //TODO pics and css
   return (
     <div className="no-background">
       <div className="title">
-        <h5>location</h5>
+        <h5>LOCATION</h5>
       </div>
       <div className="two-columns">
         <div className="column">

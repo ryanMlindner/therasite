@@ -1,4 +1,5 @@
 export default function Home() {
+  //TODO CSS mostly
   return (
     <div className="home">
       <div className="pic-Background">
