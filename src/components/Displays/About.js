@@ -4,7 +4,7 @@ export default function About() {
     color: '#EEE'
   }
   return (
-    <div className="about">
+    <div className="no-background">
       <div className="header">
         <h5>ABOUT</h5>
       </div>

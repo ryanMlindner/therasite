@@ -4,6 +4,9 @@ import Title from "./Displays/Title.js";
 import NavBar from "./Interacts/NavBar.js";
 import Home from "./Containers/Home.js";
 import About from "./Displays/About.js";
+import Services from "./Displays/Services.js";
+import Location from "./Displays/Location.js";
+
 
 //TODO set up switches and routes
 /*
@@ -28,6 +31,8 @@ export default function App() {
       <NavBar/>
       <Home/>
       <About/>
+      <Services/>
+      <Location/>
     </div>
   );
 }
