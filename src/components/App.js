@@ -7,6 +7,11 @@ import About from "./Displays/About.js";
 import Services from "./Displays/Services.js";
 import Location from "./Displays/Location.js";
 
+//TODO transfer class names from js to css if that amount of control is req
+//or ask client if they want more of a templated thing and look into
+//materialui, skeleton, etc
+//also meet for color scheme, layout preferences, etc
+
 
 //TODO set up switches and routes
 /*
