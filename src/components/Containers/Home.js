@@ -2,10 +2,7 @@ export default function Home() {
   //TODO CSS mostly
   return (
     <div className="home">
-      <div className="pic-Background">
-        <div className="picture">
-          <>this is totally a picture</>
-        </div>
+      <div className="pic-background">
         <div className="negative-text">
           <h3>Healing starts here</h3>
           <h5>If you feel lost, alone, chaotic, confused, or completely numb, 

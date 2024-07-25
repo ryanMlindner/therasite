@@ -8,15 +8,20 @@ body {
   text-align: center;
 }
 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+.pic-background {
+  background-image: url("../Deps/rockyMountainNationalParkPanorama.jpg");
+  color:gainsboro;
+}
+
 .button {
   margin: 3rem;
   text-align: center;
   border: 2px solid black;
   padding: 20px;
   border-radius: 10px;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
