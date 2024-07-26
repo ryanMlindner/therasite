@@ -1,7 +1,6 @@
 body {
   margin: 0.25;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, 'Cormorant Garamond','Montserrat',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -31,27 +30,20 @@ code {
   background-color: darkslateblue;
 }
 
-.list-item {
-  display: inline-block;
-  margin: 2rem;
-  border: 2px solid black;
-  padding: 5px;
-  border-radius: 5px;
-  background-color: rgb(75, 208, 212);
-}
+
 
 .columns {
   display: flex;
+  justify-content: center;
 }
 
 .column {
   float: left;
+  margin: 1%;
 }
 
 .button {
-  margin: 3rem;
+  display: inline-block;
+  margin: 2%;
   text-align: center;
-  border: 2px solid black;
-  padding: 10px;
-  border-radius: 5px;
 }

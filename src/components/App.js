@@ -14,21 +14,8 @@ import Location from "./Displays/Location.js";
 
 
 //TODO set up switches and routes
-/*
-<Route exact path="/test">
-  <Test/>
-</Route>
-TODO ask if client wants an SPA with scroll links or multiple display pages
-IF SPA: keep this
-IF multiple:
-<BrowserRouter>
-  <NavBar/>
-  <Routes>
-    <Route path="/" element={<Home/>} />
-    <Route path="/about" element={<About/>} />
-  </Routes>
-</BrowserRouter>
-*/
+//TODO sticky navigation bar at top
+//TODO 
 const lightText = {
   color: '#EEE'
 }

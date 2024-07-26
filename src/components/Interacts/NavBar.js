@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 //to="/">Home</NavLink>
 export default function NavBar() {
   return (
-    <div className="navbar">
+    <div className="no-background">
       <div className="button">
         Home
       </div>
