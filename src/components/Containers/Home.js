@@ -14,7 +14,7 @@ export default function Home() {
           Client Portal Link
         </div>
       </div>
-      <div className="two-columns">
+      <div className="columns">
         <div className="column">
           <div className="icon">
             placeholder

@@ -22,7 +22,7 @@ export default function Services() {
           return <div className="list-item">{service}</div>
         })}
       </div>
-      <div className="three-columns">
+      <div className="columns">
         <div className="column">
           <h4>APPROACHES</h4>
           {approaches.map(approach => {

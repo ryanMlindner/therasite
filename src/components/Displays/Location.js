@@ -5,7 +5,7 @@ export default function Location() {
       <div className="title">
         <h5>LOCATION</h5>
       </div>
-      <div className="two-columns">
+      <div className="columns">
         <div className="column">
           <div className="picture">
             THIS IS A MAP!

@@ -31,11 +31,6 @@ code {
   background-color: darkslateblue;
 }
 
-.no-background {
-  overflow: visible;
-  white-space: nowrap;
-}
-
 .list-item {
   display: inline-block;
   margin: 2rem;
@@ -43,6 +38,10 @@ code {
   padding: 5px;
   border-radius: 5px;
   background-color: rgb(75, 208, 212);
+}
+
+.columns {
+  display: flex;
 }
 
 .column {
