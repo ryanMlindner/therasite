@@ -31,12 +31,22 @@ code {
   background-color: darkslateblue;
 }
 
+.no-background {
+  overflow: visible;
+  white-space: nowrap;
+}
+
 .list-item {
   display: inline-block;
   margin: 2rem;
   border: 2px solid black;
   padding: 5px;
   border-radius: 5px;
+  background-color: rgb(75, 208, 212);
+}
+
+.column {
+  float: left;
 }
 
 .button {

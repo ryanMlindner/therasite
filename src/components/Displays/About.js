@@ -3,7 +3,7 @@ export default function About({textStyle}) {
   textStyle = textStyle
   return (
     <div className="no-background">
-      <div className="header">
+      <div className="title">
         <h5>ABOUT</h5>
       </div>
       <div className="text">
